@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Mi CV online</title>
+</head>
+
+<body>
+    <div class="header">
+    <h1>ADA ONLINE</h1>
+    <div class="menu">
+    <p> <a href="#portfolio">PORTFOLIO</a></p>
+    <p><a href="#about">ABOUT</a></p>
+    <p> <a href="#contact">CONTACT</a></p>
+  </div>
+  </div>
+
+
+  <div class="main">
+    <img src="./img/foto.svg">
+    <h2>HTML Y CSS</h2>
+  </div>
+
+  <div class="portfolio">
+    <h2 id= "portfolio">PORTFOLIO</h2>
+    <hr>
+    <div>    
+      <div class="imgport"><img src="./Img/cabin.png"></div>
+      <div class="imgport"><img src="./Img/cake.png"></div>
+      <div class="imgport"><img src="./Img/circus.png"></div>
+  </div>
+  <div>    
+      <div class="imgport"><img src="./Img/game.png"></div>
+      <div class="imgport"><img src="./Img/safe.png"></div>
+      <div class="imgport"><img src="./Img/submarine.png"></div>
+    </div>
+
+  </div>
+
+    <div class="main">
+
+      <p id="about">ABOUT</p>
+      <hr>
+      
+
+    <div class="about">
+      Freelancer is a free bootstrap theme created by a Start Bootstrap. The dowloand includes the complete source files
+      including HTML, CSS and JavaSctip as well as optional SASS stylesheets for easy customization.
+    </div>
+
+    <div class="about">
+      You can create your own custom avatar for the masterhead, change the icon in the dividers, and add your email
+      address to the contact form to make it fully functional.
+
+    </div>
+  </div>
+  <div class="contact">
+
+      <h2 id="contact">CONTACT ME</h2>
+      <hr>
+      <div class ="form">
+      <form action="/contacto.php" method="post">
+        <div>
+          <label><input type="text" name="nombre" placeholder="Name"></label>
+        </div>
+        <div>
+            <label><input type="Email" name="Email" placeholder="Email Address"></label>
+          </div>
+          <div>
+              <label><input type="number" name="phone" placeholder="Phone Number"></label>
+            </div>
+            <div>
+                <label>
+                    <textarea rows="6 "  placeholder="Message" name="descripcion"></textarea>
+                </label>
+              </div>
+
+              <div>
+                <input type="submit" placeholder="Send">
+              </div>
+        
+                </form>
+
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
